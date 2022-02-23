@@ -20,7 +20,7 @@ file.forEachDescendant((node, traversal) => {
     const { line, column } = file.getLineAndColumnAtPos(node.getStart())
     // console.log(node.getKindName(), line, column);
 
-    if (line === 72 && column === 5) {
+    if (line === 51 && column === 5) {
         count++;
 
         if (node.getKind() === SyntaxKind.ExpressionStatement) {
