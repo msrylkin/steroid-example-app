@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm "$(pwd)/project.zip"
+zip -r "$(pwd)/project.zip" "./src"
+
+# curl

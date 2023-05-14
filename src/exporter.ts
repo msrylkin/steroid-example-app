@@ -110,5 +110,5 @@ export class SteroidExporter implements SpanExporter {
 }
 
 function findEqualCodePlace(a: CodePlaceable, b: CodePlaceable) {
-    return a.fileName === b.fileName && a.lineNumber === b.lineNumber && a.columnNumber && b.columnNumber;
+    return a.fileName === b.fileName && a.lineNumber === b.lineNumber && a.columnNumber === b.columnNumber;
 }
