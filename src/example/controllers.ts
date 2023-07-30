@@ -4,6 +4,8 @@ import { TypeormUser } from "./User";
 
 export async function exampleController(req, res, next) {
     await findEntity();
+    res.json({});
+    return;
     await rawQuery();
     await sleep(2);
 
