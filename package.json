@@ -23,6 +23,7 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.9.0",
     "source-map-support": "^0.5.21",
+    "sqlite3": "^5.1.6",
     "stack-trace": "0.0.10",
     "steroid-otel-utils": "file:../steroid-otel-utils",
     "ts-morph": "^13.0.2",
