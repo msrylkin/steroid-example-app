@@ -38,5 +38,5 @@ connectToDb()
         sequelize.query('CREATE TABLE "users" ("id" SERIAL PRIMARY KEY);'),
         getConnection().query('CREATE TABLE "users" ("id" SERIAL PRIMARY KEY);'),
     ]))
-    .then(() => app.listen(3077))
+    .then(() => app.listen(5000))
     .then(() => console.log('server started'));
