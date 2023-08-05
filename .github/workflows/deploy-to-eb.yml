@@ -1,4 +1,6 @@
 name: EB deploy
+on:
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
