@@ -26,6 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Set env
+        run: echo "GITHUB_SHA_ENV=${GITHUB_SHA}" >> $GITHUB_ENV
       - name: build zip archive
         run: |
           zip -r ./project.zip ./src
@@ -34,5 +36,5 @@ jobs:
           curl \
             --header "Content-Type: application/json" \
             --request POST \
-            --data '{"commit": "$GITHUB_SHA" }' \
+            --data '{"commit": "$GITHUB_SHA_ENV" }' \
             https://ly2jrkewbd.execute-api.us-east-1.amazonaws.com/dev/createUploadLink
