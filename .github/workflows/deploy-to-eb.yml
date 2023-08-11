@@ -34,5 +34,5 @@ jobs:
           curl \
             --header "Content-Type: application/json" \
             --request POST \
-            --data '{"commit": $GITHUB_SHA }' \
+            --data '{"commit": "$GITHUB_SHA" }' \
             https://ly2jrkewbd.execute-api.us-east-1.amazonaws.com/dev/createUploadLink
