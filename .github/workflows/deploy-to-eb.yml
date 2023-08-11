@@ -33,7 +33,7 @@ jobs:
           zip -r ./project.zip ./src
       - name: make request to get upload link
         run: |
-          response = $(curl --header "Content-Type: application/json" --request POST --data '{"commit": "${{ github.sha }}" }' https://ly2jrkewbd.execute-api.us-east-1.amazonaws.com/dev/createUploadLink)
+          response=$(curl --header "Content-Type: application/json" --request POST --data '{"commit": "${{ github.sha }}" }' https://ly2jrkewbd.execute-api.us-east-1.amazonaws.com/dev/createUploadLink)
           echo "linkResponse=${response}" >> $GITHUB_ENV
       - name: parse link
         run: |
