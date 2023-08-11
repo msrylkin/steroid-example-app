@@ -40,4 +40,4 @@ jobs:
           echo "${{ fromJSON(env.linkResponse).url }}"
       - name: upload project and make release
         run: |
-          curl -i -X PUT -T "./project.zip" -H "Content-Type: application/zip" ${{ fromJSON(env.linkResponse).url }}
+          curl -i -X PUT -T "./project.zip" -H "Content-Type: application/zip" "${{ fromJSON(env.linkResponse).url }}"
