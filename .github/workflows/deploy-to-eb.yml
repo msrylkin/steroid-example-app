@@ -25,6 +25,7 @@ jobs:
   upload-sources:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: build zip archive
         run: |
           echo $(pwd)
