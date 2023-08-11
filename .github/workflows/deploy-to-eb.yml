@@ -29,3 +29,6 @@ jobs:
         run: |
           echo $(pwd)
           echo $(ls)
+      - name: build zip archive 2
+        run: |
+          echo $(ls)
