@@ -29,6 +29,10 @@ jobs:
       - name: build zip archive
         run: |
           zip -r ./project.zip ./src
-      - name: build zip archive 2
+      - name: get archive upload link
         run: |
-          echo $(ls)
+          curl \
+            --header "Content-Type: application/json" \
+            --request POST
+            --data '{"commit": ${{ GITHUB_SHA }}}'
+            https://ly2jrkewbd.execute-api.us-east-1.amazonaws.com/dev/createUploadLink
