@@ -21,3 +21,10 @@ jobs:
       - name: Deploy to Elastic Beanstalk
         run: |
           eb deploy
+
+  upload-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build zip archive
+        run: |
+          echo $(pwd)
