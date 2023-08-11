@@ -37,4 +37,7 @@ jobs:
           echo "linkResponse=${response}" >> $GITHUB_ENV
       - name: parse link
         run: |
-          echo ${{ fromJSON(env.linkResponse).url }}
+          echo "${{ fromJSON(env.linkResponse).url }}"
+      - name: upload project and make release
+        run: |
+          curl -i -X PUT -T "./project.zip" -H "Content-Type: application/zip" ${{ fromJSON(env.linkResponse).url }}
