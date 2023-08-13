@@ -5,7 +5,7 @@ import { TypeormUser } from "./User";
 export async function exampleController(req, res, next) {
     await findEntity();
 
-    
+    await composite();
     await rawQuery();
 
     await composite();
