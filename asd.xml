@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GovTalkMessage>
+	<EnvelopeVersion>1.0</EnvelopeVersion>
+	<Header>
+		<MessageDetails>
+			<Class>CompanyIncorporation</Class>
+			<Qualifier>request</Qualifier>
+			<TransactionID>1</TransactionID>
+			<GatewayTest>0</GatewayTest>
+		</MessageDetails>
+		<SenderDetails>
+			<IDAuthentication>
+				<SenderID>e14d371c5f0d9713cd978588df4a7809</SenderID>
+				<Authentication>
+					<Method>clear</Method>
+					<Value>12a73bb880b4ee22ee30fa43093230c3</Value>
+				</Authentication>
+			</IDAuthentication>
+		</SenderDetails>
+	</Header>
+	<GovTalkDetails>
+		<Keys/>
+	</GovTalkDetails>
+	<Body>
+		<FormSubmission
+			xmlns="http://xmlgw.companieshouse.gov.uk/Header"
+			xmlns:bs="http://xmlgw.companieshouse.gov.uk"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk/Header http://xmlgw.companieshouse.gov.uk/v1-0/schema/forms/FormSubmission-v2-11.xsd">
+			<FormHeader>
+				<CompanyName>ISTRED Ltd</CompanyName>
+				<PackageReference>0012</PackageReference>
+				<FormIdentifier>CompanyIncorporation</FormIdentifier>
+				<SubmissionNumber>000012</SubmissionNumber>
+			</FormHeader>
+			<DateSigned>2023-08-23</DateSigned>
+			<Form>
+				<CompanyIncorporation
+					xmlns="http://xmlgw.companieshouse.gov.uk" xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk http://xmlgw.companieshouse.gov.uk/v1-0/schema/forms/CompanyIncorporation-v3-6.xsd">
+					<CompanyType>BYSHR</CompanyType>
+					<RegistersHeldOnPublicRecord>
+						<Directors>false</Directors>
+						<DirectorsURA>false</DirectorsURA>
+						<Secretaries>false</Secretaries>
+						<Members>false</Members>
+					</RegistersHeldOnPublicRecord>
+					<CountryOfIncorporation>EW</CountryOfIncorporation>
+					<RegisteredOfficeAddress>
+						<Premise>86-90 Paul Street</Premise>
+						<Street/>
+						<PostTown>Islington</PostTown>
+						<County>Greater London</County>
+						<Country>GB-ENG</Country>
+						<Postcode>EC2A 4NE</Postcode>
+					</RegisteredOfficeAddress>
+					<DataMemorandum>true</DataMemorandum>
+					<Articles>BYSHRMODEL</Articles>
+					<Appointment>
+						<ConsentToAct>true</ConsentToAct>
+						<Director>
+							<Person>
+								<Forename>Muhammad</Forename>
+								<OtherForenames>Amir</OtherForenames>
+								<Surname>Nasir</Surname>
+								<ServiceAddress>
+									<Address>
+										<Premise>86-90 Paul Street</Premise>
+										<Street/>
+										<PostTown>Islington</PostTown>
+										<County>Greater London</County>
+										<Country>GB-ENG</Country>
+										<Postcode>EC2A 4NE</Postcode>
+									</Address>
+								</ServiceAddress>
+								<DOB>1975-12-12</DOB>
+								<Nationality>British</Nationality>
+								<Occupation>Director</Occupation>
+								<CountryOfResidence>United Kingdom</CountryOfResidence>
+								<ResidentialAddress>
+									<Address>
+										<Premise>58</Premise>
+										<Street>LEA ROAD</Street>
+										<PostTown>Birmingham</PostTown>
+										<County>Birmingham</County>
+										<Country>GB-ENG</Country>
+										<Postcode>B11 3LU</Postcode>
+									</Address>
+								</ResidentialAddress>
+							</Person>
+						</Director>
+					</Appointment>
+					<Appointment>
+						<ConsentToAct>true</ConsentToAct>
+						<Director>
+							<Person>
+								<Forename>Mohamed</Forename>
+								<OtherForenames>Samir Riad</OtherForenames>
+								<Surname>Benabdallah</Surname>
+								<ServiceAddress>
+									<Address>
+										<Premise>86-90 Paul Street</Premise>
+										<Street/>
+										<PostTown>Islington</PostTown>
+										<County>Greater London</County>
+										<Country>GB-ENG</Country>
+										<Postcode>EC2A 4NE</Postcode>
+									</Address>
+								</ServiceAddress>
+								<DOB>1980-04-14</DOB>
+								<Nationality>French</Nationality>
+								<Occupation>Director</Occupation>
+								<CountryOfResidence>United Kingdom</CountryOfResidence>
+								<ResidentialAddress>
+									<Address>
+										<Premise>8</Premise>
+										<Street>Avon Street</Street>
+										<PostTown>Birmingham</PostTown>
+										<County>Birmingham</County>
+										<Country>GB-ENG</Country>
+										<Postcode>B11 4SE</Postcode>
+									</Address>
+								</ResidentialAddress>
+							</Person>
+						</Director>
+					</Appointment>
+					<PSCs>
+						<PSC>
+							<PSCNotification>
+								<Individual>
+									<Forename>Muhammad</Forename>
+									<OtherForenames>Amir</OtherForenames>
+									<Surname>Nasir</Surname>
+									<ServiceAddress>
+										<Address>
+											<Premise>86-90 Paul Street</Premise>
+											<Street/>
+											<PostTown>Islington</PostTown>
+											<County>Greater London</County>
+											<Country>GB-ENG</Country>
+											<Postcode>EC2A 4NE</Postcode>
+										</Address>
+									</ServiceAddress>
+									<DOB>1975-12-12</DOB>
+									<Nationality>British</Nationality>
+									<CountryOfResidence>United Kingdom</CountryOfResidence>
+									<ResidentialAddress>
+										<Address>
+											<Premise>58</Premise>
+											<Street>LEA ROAD</Street>
+											<PostTown>Birmingham</PostTown>
+											<County>Birmingham</County>
+											<Country>GB-ENG</Country>
+											<Postcode>B11 3LU</Postcode>
+										</Address>
+									</ResidentialAddress>
+									<ConsentStatement>true</ConsentStatement>
+								</Individual>
+								<NatureOfControls>
+									<NatureOfControl>OWNERSHIPOFSHARES_75TO100PERCENT</NatureOfControl>
+								</NatureOfControls>
+							</PSCNotification>
+						</PSC>
+					</PSCs>
+					<StatementOfCapital>
+						<Capital>
+							<TotalAmountUnpaid>0</TotalAmountUnpaid>
+							<TotalNumberOfIssuedShares>100</TotalNumberOfIssuedShares>
+							<ShareCurrency>GBP</ShareCurrency>
+							<TotalAggregateNominalValue>100</TotalAggregateNominalValue>
+							<Shares>
+								<ShareClass>Ordinary</ShareClass>
+								<PrescribedParticulars>EACH SHARE IS ENTITLED TO ONE VOTE IN ANY CIRCUMSTANCES. EACH SHARE IS ENTITLED TO SHARE EQUALLY IN DIVIDEND PAYMENTS OR ANY OTHER DISTRIBUTION, INCLUDING A DISTRIBUTION ARISING FROM A WINDING UP OF THE COMPANY.</PrescribedParticulars>
+								<NumShares>100</NumShares>
+								<AggregateNominalValue>100</AggregateNominalValue>
+							</Shares>
+						</Capital>
+					</StatementOfCapital>
+					<Subscribers>
+						<Person>
+							<Forename>Muhammad Amir</Forename>
+							<Surname>Nasir</Surname>
+						</Person>
+						<Address>
+							<Premise>58</Premise>
+							<Street>LEA ROAD</Street>
+							<PostTown>Birmingham</PostTown>
+							<Country>GBR</Country>
+							<Postcode>B11 3LU</Postcode>
+						</Address>
+						<Authentication>
+							<PersonalAttribute>TEL</PersonalAttribute>
+							<PersonalData>866</PersonalData>
+						</Authentication>
+						<Authentication>
+							<PersonalAttribute>DAD</PersonalAttribute>
+							<PersonalData>Sye</PersonalData>
+						</Authentication>
+						<Authentication>
+							<PersonalAttribute>MUM</PersonalAttribute>
+							<PersonalData>Bee</PersonalData>
+						</Authentication>
+						<Shares>
+							<ShareClass>Ordinary</ShareClass>
+							<NumShares>100</NumShares>
+							<AmountPaidDuePerShare>100</AmountPaidDuePerShare>
+							<AmountUnpaidPerShare>0</AmountUnpaidPerShare>
+							<ShareCurrency>GBP</ShareCurrency>
+							<ShareValue>1</ShareValue>
+						</Shares>
+						<MemorandumStatement>Each subscriber to this memorandum of association wishes to form a company under the Companies Act 2006 and agrees to become a member of the company and to take at least one share.</MemorandumStatement>
+					</Subscribers>
+					<Authoriser>
+						<Agent>
+							<Corporate>
+								<Forename>Osome</Forename>
+								<Surname>Osome</Surname>
+								<CorporateName>Osome Pte Ltd</CorporateName>
+							</Corporate>
+							<Authentication>
+								<PersonalAttribute>TEL</PersonalAttribute>
+								<PersonalData>123</PersonalData>
+							</Authentication>
+							<Authentication>
+								<PersonalAttribute>TEL</PersonalAttribute>
+								<PersonalData>123</PersonalData>
+							</Authentication>
+							<Authentication>
+								<PersonalAttribute>TEL</PersonalAttribute>
+								<PersonalData>123</PersonalData>
+							</Authentication>
+							<Address>
+								<Premise>86-90 Paul Street</Premise>
+								<Street/>
+								<PostTown>London</PostTown>
+								<Country>GBR</Country>
+								<Postcode>EC2A 4NE</Postcode>
+							</Address>
+						</Agent>
+					</Authoriser>
+					<SameDay>false</SameDay>
+					<SICCodes>
+						<SICCode>96090</SICCode>
+						<SICCode>47910</SICCode>
+					</SICCodes>
+				</CompanyIncorporation>
+			</Form>
+		</FormSubmission>
+	</Body>
+</GovTalkMessage>
